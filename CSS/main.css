@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: rgb(55, 87, 55);
+    padding: 25px 0;
+    color: gainsboro;
+    position: fixed;
+    width: 100%;
+}
+
+header h1 {
+    color: white;
+}
+
+header li a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 80px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto; 
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+    padding: 16px 0;
+}
+section {
+    padding: 16px 0;
+}
+
+section h2,
+article .articles{
+    margin-bottom: 16px 0;
+    padding: 8px 0;
+}
+
+.articles article h3 {
+    margin-top: 16px 0;
+    margin-bottom: 18px;
+}
+
+.articles article a {
+    background-color: rgba(rgb(156, 76, 76), rgb(32, 87, 32), rgb(94, 94, 133), alpha);
+    color: #fff;
+    padding: 6px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bolder;
+    margin: 8px 0;
+    margin-left: 155px;
+}
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 25px;
+}
+
+section h2 {
+    font-size: 35px;
+}
+
+#economy {
+    background-color: greenyellow;
+}
+
+#sports {
+    background-color: rgb(26, 111, 7);
+}
+
+#entertainment {
+    background-color: red;
+}
+
+#technology {
+    background-color: rgb(29, 146, 146);
+}
+
+#sports .articles article a {
+    background-color: rgb(20, 35, 22);
+}
+
+#economy .articles article a {
+    background-color: green;
+}
+
+#entertainment .articles article a {
+    background-color: rgb(59, 19, 19);
+}
+
+#technology .articles article a {
+    background-color: rgb(110, 110, 179);
+}
+
+#clima .articles article a{
+    background-color: orange;
+    color: black;
+}
+
+#clima {
+    background-color: rgb(255, 230, 0);
+}
+
+#politica .articles article a {
+    background-color: rgb(255, 213, 0);
+    color: black;
+}
+
+#politica {
+    background-color: rgb(251, 163, 0);
+    color: white;
+}
